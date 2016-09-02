@@ -1,0 +1,68 @@
+extends layout
+
+block content
+  header
+    .logo
+    nav
+      ul
+        li
+          a(href="#") Our work
+        li
+          a(href="#") Who we are
+        li
+          a(href="#") Blog
+        li
+          a(href="#") Contact Us
+  section.loader
+    .section-content
+      .loader-animation
+        .dot
+        .dot1
+        i
+  #fullpage
+    section.section.landing
+      .section-content
+        h1 Turning stories into code
+        hr
+        p We build products you love with a team you'll enjoy
+      .social-icons
+        .instagram
+        .twitter
+        .facebook
+    section.section.our-work#our-work
+      .section-content
+        .design
+          i
+          h4 design
+          p Design and piloting e-marketing strategies to maximize your profits and your return on investment
+        .development
+          i
+          h4 development
+          p Social prescence, loyalty, acquisition of highly qualified traffic and audience development
+        .strategy
+          i
+          h4 strategy
+          p Effective websites focused on the needs of the user, by implementing the latest web technologies
+        .big-data
+          i
+          h4 big data
+          p Effective websites focused on the needs of the user, by implementing the latest web technologies
+    section.section.who-we-are
+      .section-content
+        h2 Who we are
+        hr
+        p At Rolique we are a team of award winning, Lviv based developers, that are passionate about creating unique & inspring web products.
+        button See our works
+    section.section.contact-us
+      .contact-us-left
+        .section-content
+          i
+          h4 Contact Us
+          p Feel Free to ask something or just to say hi!
+      .contact-us-right
+        .section-content
+          form
+            input(type="text" placeholder="Name")
+            input(type="email" placeholder="E-mail")
+            textarea(placeholder="Say something")
+            input(type="submit" value="Send Message")
