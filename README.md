@@ -1,4 +1,4 @@
 # rolique-src
-npm i 
-bower i
+npm i,
+bower i,
 gulp
